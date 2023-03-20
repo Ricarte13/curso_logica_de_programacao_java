@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class Exercicio01 {
 	
 	public static void main(String[] args) {
+		
 		Scanner scanner = new Scanner(System.in);
 		
-		
-		System.out.print("Informe um número: ");
+		System.out.print("Informe um nÃºmero: ");
 		Integer numero = scanner.nextInt();
 		
 		Integer quadrado = numero * numero;
 		
-		System.out.println(" O quadrado de "+ numero+" é " + quadrado+".");
+		System.out.println(" O quadrado de "+ numero+" Ã© " + quadrado+".");
 		
 		scanner.close();
 	}
